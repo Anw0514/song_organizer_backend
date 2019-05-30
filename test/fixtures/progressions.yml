@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  music: one
+  music_type: Music
+
+two:
+  music: two
+  music_type: Music

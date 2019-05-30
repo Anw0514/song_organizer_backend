@@ -1,0 +1,2 @@
+class ChordProgressionsController < ApplicationController
+end

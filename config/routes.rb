@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  resources :chord_progressions
+  resources :chords
+  resources :progressions
   resources :links
   resources :subsections
   resources :songs
