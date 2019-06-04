@@ -19,6 +19,17 @@ Link.destroy_all
 ms = Song.create(title: 'Maybe Soon', key: 'G', lyrics: "Maybe soon / I'll forget / all the pain / and the stress" )
 nevermind = Song.create(title: 'Nevermind', key: 'Unknown', lyrics: "Now I / I find / Solace / / You Wont / Ever / Promise")
 
-# Subsections
+# Chords
+a = Chord.create(letter: 'A', key: 'major')
+b = Chord.create(letter: 'B', key: 'major')
+c = Chord.create(letter: 'C', key: 'major')
+d = Chord.create(letter: 'D', key: 'major')
+e = Chord.create(letter: 'E', key: 'major')
+f = Chord.create(letter: 'F', key: 'major')
+g = Chord.create(letter: 'G', key: 'major')
+ab = Chord.create(letter: 'Ab', key: 'major')
+bb = Chord.create(letter: 'Bb', key: 'major')
+bbsev = Chord.create(letter: 'Bb', key: 'major', addition: '7')
+
 
 # 
