@@ -1,3 +1,3 @@
 class Link < ApplicationRecord
-  belongs_to :music, polymorphic: true
+  belongs_to :song
 end

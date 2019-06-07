@@ -6,7 +6,7 @@ class CreateLinks < ActiveRecord::Migration[5.2]
       t.integer :minutes
       t.integer :seconds
       t.string :notes
-      t.references :music, polymorphic: true
+      t.belongs_to :song
 
       t.timestamps
     end
