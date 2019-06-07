@@ -32,4 +32,7 @@ bb = Chord.create(letter: 'Bb', key: 'major')
 bbsev = Chord.create(letter: 'Bb', key: 'major', addition: '7')
 
 
+
+
+
 # 
