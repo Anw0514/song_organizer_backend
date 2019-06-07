@@ -9,7 +9,6 @@
 
 Progression.destroy_all
 Song.destroy_all
-Subsection.destroy_all
 Chord.destroy_all
 ChordProgression.destroy_all
 Link.destroy_all
