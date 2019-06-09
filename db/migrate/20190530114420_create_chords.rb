@@ -3,7 +3,7 @@ class CreateChords < ActiveRecord::Migration[5.2]
     create_table :chords do |t|
       t.string :letter
       t.string :key
-      t.integer :addition
+      t.string :addition
 
       t.timestamps
     end

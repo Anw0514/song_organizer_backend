@@ -25,7 +25,7 @@ ActiveRecord::Schema.define(version: 2019_05_30_114601) do
   create_table "chords", force: :cascade do |t|
     t.string "letter"
     t.string "key"
-    t.integer "addition"
+    t.string "addition"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
