@@ -7,11 +7,11 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
-Progression.destroy_all
-Song.destroy_all
-Chord.destroy_all
 ChordProgression.destroy_all
+Progression.destroy_all
+Chord.destroy_all
 Link.destroy_all
+Song.destroy_all
 
 
 # Songs
@@ -22,6 +22,7 @@ nevermind = Song.create(title: 'Nevermind', key: 'Unknown', lyrics: "Now I / I f
 a = Chord.create(letter: 'A', key: 'major')
 am = Chord.create(letter: 'A', key: 'minor')
 b = Chord.create(letter: 'B', key: 'major')
+bsev = Chord.create(letter: 'B', key: 'major', addition: 'maj7')
 c = Chord.create(letter: 'C', key: 'major')
 d = Chord.create(letter: 'D', key: 'major')
 e = Chord.create(letter: 'E', key: 'major')
@@ -48,6 +49,11 @@ ChordProgression.create(progression: i, chord: gmajsev)
 ChordProgression.create(progression: i, chord: gsev)
 ChordProgression.create(progression: i, chord: c)
 
+j = Progression.create(song: ms)
+ChordProgression.create(progression: j, chord: em)
+ChordProgression.create(progression: j, chord: bsev)
+ChordProgression.create(progression: j, chord: g)
+ChordProgression.create(progression: j, chord: am)
 
 
 
