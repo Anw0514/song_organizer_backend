@@ -30,7 +30,8 @@ ab = Chord.create(letter: 'Ab', key: 'major')
 bb = Chord.create(letter: 'Bb', key: 'major')
 bbsev = Chord.create(letter: 'Bb', key: 'major', addition: '7')
 
-
+# Links
+Link.create(song: ms, text: 'https://www.youtube.com/embed/LfaU-KEkBt8')
 
 
 
