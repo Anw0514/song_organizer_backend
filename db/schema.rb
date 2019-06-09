@@ -35,7 +35,6 @@ ActiveRecord::Schema.define(version: 2019_05_30_114601) do
     t.string "note"
     t.integer "minutes"
     t.integer "seconds"
-    t.string "notes"
     t.integer "song_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
